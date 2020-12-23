@@ -1,0 +1,9 @@
+---
+building:
+  name:
+    type: string
+    required: true
+  location:
+    type: string
+  nb_etage:
+    type: number

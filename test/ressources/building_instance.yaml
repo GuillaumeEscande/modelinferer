@@ -1,0 +1,30 @@
+---
+- building:
+    name: Batiment A
+    location: Toulouse
+    nb_etage: 4
+    links:
+    - contains: Zone A1
+
+- building:
+    name: Batiment B
+    location: Paris
+    nb_etage: 1
+    links:
+    - contains: Zone A
+
+- zone:
+    name: Zone A1
+    etage: 0
+
+- zone:
+    name: Zone A2
+    etage: 3
+    links:
+    - is_contained_by: Batiment A
+
+- zone:
+    name: Zone B
+    etage: 0
+    links:
+    - is_contained_by: Batiment B

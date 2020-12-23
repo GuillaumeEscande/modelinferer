@@ -1,0 +1,16 @@
+{
+  "reporter": [
+    "html",
+    "text-summary"
+  ],
+  "extension": [
+    ".ts"
+  ],
+  "require": [
+    "ts-node/register"
+  ],
+  "sourceMap": true,
+  "instrument": true,
+  "check-coverage": false,
+  "cache": true
+}

@@ -1,0 +1,18 @@
+---
+building:
+  name:
+    type: string
+    required: true
+  location:
+    type: string
+  nb_etage:
+    type: number
+  links:
+    type: undefined
+
+zone:
+  name:
+    type: string
+    required: true
+  etage:
+    type: number
